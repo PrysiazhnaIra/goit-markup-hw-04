@@ -152,6 +152,12 @@ img {
 /* solutions */
 
 .solutions {
+}
+
+.solutions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -164,14 +170,7 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
-  max-height: 600px;
-  flex-shrink: 0;
-}
-
-.solutions-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* max-height: 600px; */
 }
 
 .solutions-title {
